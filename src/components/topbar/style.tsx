@@ -8,7 +8,6 @@ export const Container = styled.div`
     height: 56px;
     width: 100%;
     background-color: #242526;
-    /* background-color: #2374e1; */
 
     .topbarLeft {
         width: 20%;
@@ -80,7 +79,7 @@ export const Container = styled.div`
         }
     
     .topbarRight{
-        width: 20%;
+        width: fit-content;
 
         display: flex;
         align-items: center;

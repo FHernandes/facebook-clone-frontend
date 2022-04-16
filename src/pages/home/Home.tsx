@@ -1,4 +1,4 @@
-import Feed from "../../components/authorifyPage/Feed";
+import Feed from "../../components/authorifyPage/AuthorifyPage";
 import Topbar from "../../components/topbar/Topbar"
 
 const Home = () => {
