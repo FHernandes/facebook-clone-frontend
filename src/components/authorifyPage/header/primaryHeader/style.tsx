@@ -5,21 +5,14 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
 
-    height: 60vh;
+    height: 142px;
     width: 100%;
-    background: linear-gradient(to bottom, #d4d5d6, #6a6b6c, #474849, #242526);
+    background: #242526;
 
     .container {
         display: flex;
         flex-direction: column;
         width: 940px;
-    }
-
-    .banner {
-        width: 100%;
-        height: 55%;
-        border-radius: 10px;
-        object-fit: cover;
     }
 
     .aboutPage {

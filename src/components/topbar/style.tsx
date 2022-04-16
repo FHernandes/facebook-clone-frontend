@@ -26,9 +26,10 @@ export const Container = styled.div`
             display: flex;
             align-items: center;
 
-            width: 70%;
+            width: fit-content;
             height: 38px;
             margin-left: 10px;
+            padding-right: 5px;
             background-color: #3a3b3c;
             border-radius: 30px;
         }
@@ -43,7 +44,7 @@ export const Container = styled.div`
             font-size: 16px;
             color: #ffffff;
 
-            width: 70%;
+            width: 130px;
             margin-left: 8px;
             background-color: #3a3b3c;
             border: none;

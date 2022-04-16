@@ -5,7 +5,6 @@ const Feed = () => {
     return (
         <Container>
             <Header />
-            Feed
         </Container>
     )
 }
