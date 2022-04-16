@@ -26,6 +26,8 @@ export const Container = styled.div`
                 justify-content: center;
                 align-items: center;
 
+                cursor: pointer;
+
                 width: 100%;
                 border-radius: 8px;
                 margin-left: 16px;

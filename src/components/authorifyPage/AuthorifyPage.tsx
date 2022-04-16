@@ -1,3 +1,4 @@
+import Feed from "./feed/Feed";
 import Header from "./header/Header";
 import Sidebar from "./sidebar/Sidebar";
 import { Container } from "./style";
@@ -9,7 +10,7 @@ const AuthorifyPage = () => {
             <div className="bodyContainer">
                 <div className="centerDiv">
                     <Sidebar />
-                    <div>feed</div>
+                    <Feed />
                 </div>
 
             </div>
