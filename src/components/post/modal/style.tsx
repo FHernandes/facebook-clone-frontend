@@ -60,14 +60,38 @@ export const Container = styled.div`
     .description {
         height: 150px;
         padding: 0 16px;
-        color: #b1b2b3
+        color: #b1b2b3;
+
+        .inputDescription {
+            font-size: 16px;
+            color: #ffffff;
+
+            width: 100%;
+            height: 150px;
+            background-color: #3a3b3c;
+            border-radius: 8px;
+            border: none;
+        }
+        .inputDescription:focus {
+            outline: none;
+        }
     }
 
     .addToPost {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        justify-content: center;
+
         margin: 16px;
         padding: 16px;
         border: 1px solid #3a3b3c;
         border-radius: 8px;
+
+        :hover {
+            cursor: pointer;
+            background-color: #3a3b3c;
+        }
     }
 
     .addPost {
@@ -83,5 +107,7 @@ export const Container = styled.div`
         
         background-color: #3a3b3c;
         border-radius: 8px;
+
+        cursor: pointer;
     }
 `;

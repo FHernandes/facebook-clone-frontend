@@ -1,7 +1,11 @@
 import { Search, Person, Chat, Notifications, Home, LiveTv, GroupWork, Casino, Add } from "@mui/icons-material";
+import { useContext } from "react";
+import { DefaultContext } from "../../context/DefaultContext";
 import { Container } from "./style";
 
 const Topbar = () => {
+    const { username, profilePicture } = useContext(DefaultContext);
+
     return (
         <Container>
             <div className="topbarLeft">
@@ -29,9 +33,9 @@ const Topbar = () => {
             </div>
             <div className="topbarRight">
                 <div className="topbarProfile">
-                    <img src="https://media-exp1.licdn.com/dms/image/C4E03AQE3ok7FvtJqoQ/profile-displayphoto-shrink_200_200/0/1573898810811?e=1652918400&v=beta&t=uzp863MeYZUvcoD74_qXwnNgR-qww3mQuSzLbdzRCN8" alt="profile" className="topbarImage" />
+                    <img src={profilePicture} alt="profile" className="topbarImage" />
 
-                    <span className="topbarUser">Timeline</span>
+                    <span className="topbarUser">{username}</span>
                 </div>
                 <div className="topbarIcons">
                     <div className="topbarIconItem">
